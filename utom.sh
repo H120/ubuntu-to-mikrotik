@@ -1,10 +1,11 @@
+echo "type version of Mikrotik: "
+read version
+
 apt update 
 
 apt-get install unzip 
 
 cd /tmp 
-
-read version
 
 wget https://download.mikrotik.com/routeros/$version/chr-$version.img.zip 
 
